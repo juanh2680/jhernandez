@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+img {
+    height: 586px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+h1{
+    text-align: center;
+}
+nav {
+    list-style-type: none;
+    padding: 30px;
+    display: inline;
+    
+    text-align: center;
+    max-width: content;
+    
+}
+nav li {
+    display: inline;
+    max-width: content;
+}
+
+nav a {
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: grey;
+    display: inline-block;
+    max-width: content;
+    
+}
+nav a:hover {
+    background-color: darkgray;
+    border-radius: 15px;
+    
+}
+.biography {
+    margin: 0  auto;
+    display: block;
+    height: 10%;
+    width: 50%;
+    
+    padding-top: 20px
+}
+;
+}
+.hobbies {
+
+}
