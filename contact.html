@@ -2,10 +2,11 @@
 <html>
 <head>
     <title> This is my website </title>
-<link rel= "stylesheet" href ="styles.css">
+    <link rel= "stylesheet" href ="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
-    <h1> Juan Hernandez  </h1>
+    <h1> Contact  </h1>
     <nav>
         <ul>
             <li><a href="index.html"> Home page </a></li>
@@ -16,9 +17,42 @@
             <li><a href="contact.html">Contact Page</a></li>
         </ul>
     </nav>
-<img src="banner.jpeg" alt="banner"> 
+ <div class="banner"> 
+<img src="img/banner.jpeg" alt="banner"> 
+    </div>
 
 <h2> Contact Info </h2>
+    <form name="contact"  onsubmit=" return validation()" method="GET">
+        <div>
+            <label for="fname"> First Name <input type="text" id="fname" name="fname" value="" placeholder="Firs Name"/></label>
+           <span> <p id="firstName"></p></span>
+        </div>
+        <div>
+            <label for="fname"> Last Name  <input type="text" id="lname" name="lname" value="" placeholder="Last Name"/></label>
+            <span><p id="lastName"></p></span>
+        </div>
+        <div>
+            <label for="email">Email <input type="email" id="email" name="email" value="" placeholder="Email" /></label>
+            <span><p id="formEmail"></p></span>
+        </div>
+        <div>
+            <label for="phone">Phone <input type="tel" id="phone" name="phone" value="" placeholder="phone" pattern="^\d{3}-\d{3}-\d{4}$" /></label> 
+            <span><p id="formPhone"></p></span> 
+        </div>
+        <div>
+            <label for="company">Company Name  <input type="text" id="company" name="comapany" value="" placeholder="Company" /></label>  
+        </div>
+        <div>
+           <label for="Comments/Questions"> Comments/Questions </label> <textarea placeholder="Comment here or ask a question?" cols="70" rows="10" name="comment" id="comment"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+        <footer>
+            <a href="http://www.roadtohire.org/"> <img src="img/roadtohire.jpg" alt="Roadtohire"></a>
+            <a href="https://www.linkedin.com/in/juan-hernandez-34a927148/"> <img src="img/link.jpg" alt="LinkIn"></a>
+        </footer>
 
 </body>
 
