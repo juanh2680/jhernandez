@@ -137,6 +137,8 @@ figure img {
     margin: 2%;
 }
 
+
+
 /*======= RESUME=======*/
 .section1 {
     padding: 2.5%;
@@ -199,20 +201,28 @@ span{
 .weeka ul li {
     text-align: center;
     list-style-type: none;
+    margin: 20px;
+    display: inline-block;
 
 }
 .weekb ul li{
     text-align: center;
     list-style-type: none;
+    margin: 20px;
+    display: inline-block;
 }
 .weeka p , .weekb p {
-    text-align: center;
+    
     font-weight: bold;
 }
 .code {
     margin: 2.5px;
     font-size: 2em;
+    
+}
+.forms > div {
     text-align: center;
+    margin: 0 auto;
 }
 
 /*============ FOOTER ========*/
@@ -235,7 +245,7 @@ footer img  {
     .banner img  {
     
     border-radius: 20px;
-    height: 20%;
+    height: 25%;
     width: 100%;
     list-style-type: none;
     
@@ -274,10 +284,10 @@ footer img  {
     }
     nav li a {
     display: block;
-    padding: 8px 16px;
+    padding: 8px 8px;
     text-decoration: none;
     font-size: 1em;
     }
-
+    
 
 }
